@@ -1,43 +1,70 @@
 body 
 { 
-	background-color: White
+	background-color: silver;
+    font-family: Calibri,Arial,sans;
+    font-size: 10pt;
+    margin: 0px;
+    padding: 0px;
 }
 
-.wmd-panel
+#contents
 {
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
-	min-width: 500px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 1000px;
+    min-width: 500px;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;    
 }
 
-#wmd-editor
-{
-	background-color: Aquamarine;
-}
+/*.wmd-panel*/
+/*{*/
+	/*margin-left: 10%;*/
+	/*margin-right: 10%;*/
+	/*width: 80%;*/
+	/*min-width: 500px;*/
+/*}*/
+
+/*#wmd-editor*/
+/*{*/
+	/*background-color: Aquamarine;*/
+/*}*/
 
 #wmd-button-bar 
 {
 	width: 100%;
-	background-color: Silver; 
+	background-color: white;
 }
 
 #wmd-input 
-{ 
-	height: 500px;
+{
+	height: 100px;
 	width: 100%;
-	background-color: Gainsboro;
-	border: 1px solid DarkGray;
+	background-color: lightsteelblue;
+    border: 1px solid lightslategray;
+	/*border: 1px solid DarkGray;*/
 }
 
 #wmd-preview 
-{ 
-	background-color: LightSkyBlue; 
+{
+    margin-top: 20px;
+	background-color: #eeeeee;
+    padding: 10px;
+    border: 1px dashed darkgray;
 }
 
 #wmd-output 
 { 
-	background-color: Pink;
+    margin-top: 20px;
+	background-color: khaki;
+    padding: 10px;
+    border: 1px dashed darkgoldenrod;
 }
 
 #wmd-button-row 
@@ -54,11 +81,11 @@ body
 .wmd-spacer
 {
 	width: 1px; 
-	height: 20px; 
+	height: 20px;
 	margin-left: 14px;
 	
 	position: absolute;
-	background-color: Silver;
+	background-color: white;
 	display: inline-block; 
 	list-style: none;
 }
@@ -136,4 +163,9 @@ body
 	font-family: trebuchet MS, helvetica, sans-serif;
 	font-size: 0.8em;
 	font-weight: bold;
+}
+
+pre code {
+    font-family: Consolas, Monaco, Courier, mono;
+    font-size: 10pt;
 }
